@@ -1,0 +1,929 @@
+Hi～～點擊進去的大家好：）
+
+您有想要計算某技能的傷害力嗎？
+
+您有對人物改檔的有興趣嗎？
+
+那您就幸運啦～～(?)
+
+
+
+開啟了這個筆記簿後，再開啟「LF2改檔程式v1.5.exe」
+
+想要 改檔/尋找 哪一部份的話，
+
+可以壓下Cirl+F / 尋找 指令 查查下方的數據，
+
+上方的白空格也能尋找喔！
+
+
+
+那預祝 改檔 / 尋找(?) 愉快 ：Ｄ
+
+
+
+
+
+
+
+
+
+
+
+
+人物動作類:
+
+Ex:
+Name-
+
+
+
+(技能)
+
+
+
+Ex_end:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+共同點:
+
+
+punch: 一般攻擊
+
+super_punch: 結束技(所謂的重擊)
+
+jump_attack: 跳躍攻擊
+
+dash_attack: 衝跳攻擊
+
+
+
+
+
+
+
+
+人物:
+
+
+
+Davis-
+
+
+ball1～ball4: 氣功波
+
+many_punch: 百裂拳
+
+jumphit: 風車落
+
+singlong: 昇龍霸
+
+
+
+Woody-
+
+
+
+super_punch: 腳刀(此技能放入結束技)
+
+ball1: 氣功波
+
+fly_crash: 虎翔霸
+
+cleg :鬼車腳
+
+teleport: 
+
+<frame> 275 ～ <frame> 289 - 瞬間移動(敵人)
+
+<frame> 290 ～ <frame> 303 - 瞬間移動(我方)
+
+
+Dennis-
+
+
+
+ball1 ～ ball34: 氣功波
+
+many_foot: 百裂腳
+
+c_foot: 旋風腳
+
+chase_ball: 追蹤波
+
+
+
+Freeze-
+
+
+
+
+ball1: 冰凍波
+
+Down_punch: 冰霜拳
+
+Whirlwind: 龍捲風
+
+Sword: 冰之刀
+
+
+
+
+Firen-
+
+
+
+ball1 ～ ball3: 火炎彈
+
+burn_run: 烈火焚身
+
+flame: 豪火球 
+
+explosion: 大爆炸
+
+
+
+Louis-
+
+
+
+run_attack: 衝光拳(此技能放入run_attack)
+
+dash_attack: 落雷霸(此技能放入dash_attack)
+
+blastpush: 鳳凰展翅
+
+1000foot: 無影腳
+
+c-throw: 旋風摔
+
+transform: 變身至LouisEX
+
+
+
+
+
+LouisEX-
+
+
+
+run_attack: 衝光拳(此技能放入run_attack)
+
+dash_attack: 落雷霸(此技能放入dash_attack)
+
+up_spear: 鳳凰亂舞
+
+air_push: 鳳凰展翅
+
+
+
+Rudolf-
+
+
+
+transform: 變身術(抓人時)- <frame> 235 ～  <frame> 240
+
+transform_b: 變身術(變為某人時還原)- <frame> 245 ～  <frame> 248
+
+disappear: 隱身術
+
++man: 分身術
+
+jump_sword: 刺虎
+
+punch: 五連標(此技能名與攻擊名相同)-<frame> 285 ～ <frame> 289
+
+transform: 變身術(在原地)- <frame> 295 ～  <frame> 298
+
+
+
+Henry-
+
+
+
+blastpush: 降龍掌
+
+flute: 魔王的樂章
+
+super_arrow: 穿心矢
+
+5_arrow: 五連矢
+
+
+
+John-
+
+
+
+DA_action ～ DAA_action4: 氣功波
+
+heal_self: 治療自己
+
+heal_other: 治療別人
+
+force_field: 防護盾
+
+jumphit- 在結束技後按J+A的動作
+
+biscuit: 氣旋斬
+
+
+
+Deep-
+
+
+
+blast ～ blast3: 破空斬
+
+jump_sword: 霸王斬Ⅰ- <frame> 260 ～ <frame> 265、275、276
+(jump_sword1)- <frame> 285
+
+jump_sword: 屠龍斬- <frame> 266 ～ <frame> 272
+
+jump_sword2: 霸王斬Ⅱ-<frame> 277 ～ <frame> 282
+
+dash_sword: 鬼哭斬 <frame> 290 ～309（、310、311- 抓人時）
+
+
+
+
+
+Bandit-
+
+
+
+(無技能)
+
+
+
+Hunter-
+
+
+
+(無技能)
+
+
+
+Mark-
+
+
+
+Run_attack: 超破壞拳(此技能放入Run_attack)
+
+run: 人肉戰車 
+(注意技能名不一樣)
+
+
+
+Jack-
+
+
+
+ball1: 氣功波
+
+singlong: 筋斗腳刀
+
+
+
+Sorcerer-
+
+
+
+DA_action: 火炎彈- <frame> 235 ～ <frame> 242
+
+heal_self: 治療自己
+
+heal_other:治療別人
+
+DA_action: 冰凍彈- <frame> 270 ～ <frame> 277
+
+
+
+Monk-
+
+
+
+ball: 印宗大手印
+
+
+
+Jan-
+
+
+
+standing: 天使的祝福- <frame> 240 ～ <frame> 252(此技能名與standing相同)
+
+standing: 惡魔的審判- <frame> 260 ～ <frame> 272
+
+
+
+knight-
+
+
+
+super/sword- 此技能放入結束技，且沒有super_punch名
+
+
+
+Justin-
+
+
+
+punch: 狼拳Ⅰ- <frame> 240 ～ <frame> 246 (此技能名與攻擊名相同)
+
+ball: 氣功波
+
+punch2: 狼拳Ⅱ - <frame> 260 ～ <frame> 264
+
+
+
+Bat-
+
+
+
+ball1: 激光眼
+
+bat: 吸血蝙蝠
+
+punch: 速拳- <frame> 270 ～ <frame> 277 (此技能名與攻擊名相同)
+
+
+
+Firzen-
+
+
+
+disaster: 殃殞天降
+
+volcano: 極地火山
+
+ball: 冰火衝擊波
+
+mix: 融合(Firen+Freeze合體)
+
+
+
+Julian-
+
+
+
+run_attack: 流星拳- <frame> 85、300 ～ <frame> 307 (此技能放入run_attack)
+
+super/singlong: 上鉤拳- <frame> 70 ～ 76、79、<frame> 86 ～ <frame> 89 (此技能放入結束技，且沒有super_punch名)
+
+shadow- 即為julian製造出的殘影
+
+ball ～ ball_end: 連環重砲
+
+big_ball: 邪閃波
+
+explosion: 化為烏有
+
+
+
+Template-
+
+
+
+(無技能)
+
+
+
+
+道具類:
+
+Ex:
+Name-
+
+
+
+Ex_end:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+共同點:
+
+(以下是重物會有的):
+
+weapon_hp: 道具的血量
+
+weapon_drop_hurt: 道具著地的損血量
+
+weapon_hit_sound: 被打到的聲音
+
+weapon_drop_sound: 掉到地上的聲音
+
+weapon_broken_sound: 毀壞的聲音
+
+in_the_sky: 在空中
+
+on_hand: 在手上
+
+just_on_ground: 剛掉到地上
+
+
+
+(以上是重物有的)
+
+
+
+
+(以下是輕物會有的):
+
+weapon_hp: 道具的血量
+
+weapon_drop_hurt: 道具著地的損血量
+
+weapon_hit_sound: 被打到的聲音
+
+weapon_drop_sound: 掉到地上的聲音
+
+weapon_broken_sound: 毀壞的聲音
+
+<weapon_strength_list>- 道具攻擊表
+......................
+......................
+......................
+......................
+......................
+......................
+<weapon_strength_list_end>- 道具攻擊表結束
+
+in_the_sky: 在空中
+
+on_hand: 在手上
+
+throwing: 丟出
+
+just_on_ground: 剛掉到地上
+
+
+
+
+(以上是輕物會有的)
+
+
+
+(以下是飲品會有的):
+
+weapon_hp: 道具的血量
+
+weapon_drop_hurt: 道具著地的損血量
+
+weapon_hit_sound: 被打到的聲音
+
+weapon_drop_sound: 掉到地上的聲音
+
+weapon_broken_sound: 毀壞的聲音
+
+in_the_sky: 在空中
+
+on_hand: 在手上
+
+throwing: 丟出
+
+just_on_ground: 剛掉到地上
+
+
+
+
+(以上是飲品會有的)
+
+
+
+
+道具:
+
+
+
+weapon0(木棒)
+
+
+
+weapon1(石頭)
+
+
+
+weapon2(鐮刀)
+
+
+
+weapon3(箱子)
+
+
+
+weapon4(小刀)
+
+
+
+weapon5(棒球)
+
+
+
+weapon6(牛奶)
+
+
+
+weapon7(Freeze的冰刀)
+
+
+
+weapon8(啤酒)
+
+
+
+weapon9(迴力鏢)
+
+
+
+weapon10(Louis的手腳盔甲)
+
+
+
+weapon11(Louis的身體盔甲)
+
+
+
+
+氣功波類:
+
+
+共同點(但是有些並不見得有):
+
+
+
+flying(正在飛)
+
+
+
+hiting(打中物)
+
+
+
+hit(被打中)
+
+
+
+rebounding(被反彈)
+
+
+
+disappearing(消失中)
+
+
+
+dflying(向上/下飛中)
+
+
+
+
+一些不同名的氣功波:
+
+
+
+Ex:
+
+
+
+Name: ……「(……的)」->指改檔dat名
+
+
+
+Ex_end:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+column: 冰柱(Freeze的)- <frame> 0 ～ <frame> 6、<frame> 40 ～ <frame> 46、<frame> 50 ～ <frame> 56、<frame> 60 ～ <frame> 66、<frame> 70 ～ <frame> 76
+
+
+
+column_mother: 冰柱(Freeze的，是冰霜拳的連後面的冰柱)- <frame> 100 ～ <frame> 103
+
+
+
+whirlwind: 龍捲風(Freeze的):
+
+<frame> 150 ～ <frame> 159 : 龍捲風的飛起效果
+
+<frame> 170 : 龍捲風的冰凍效果
+
+
+
+ground_fire: 地火(Firen的)- <frame> 50 ～ <frame> 59、<frame> 70 ～ <frame> 76
+
+
+
+explosion: 大爆炸(Firen的)- <frame> 109 ～ <frame> 120
+
+
+
+louis_start: 鳳凰展翅-圖(Henry的)- <frame> 50 ～ <frame> 52
+
+
+
+louis_flying: 鳳凰展翅-擊(Henry的)- <frame> 53
+
+
+
+rodulf_smoke: 隱身術的煙霧(Henry的)- <frame> 60 ～ <frame> 65、<frame> 70 ～ <frame> 75
+
+
+
+monk_start: 印宗大手印-圖(Henry的)- <frame> 81
+
+
+
+monk_flying: 印宗大手印-擊(Henry的)- <frame> 82
+
+
+
+monk_flying: 印宗大手印-暈(Henry的)- <frame> 83
+
+
+
+stars-治療球碰到後的效果(John的)- <frame> 40 ～ <frame> 47
+
+
+
+healball: 治療球(John的)- <frame> 50 ～ <frame> 57
+
+
+
+forcefield: 防護盾(John的)- <frame> 60 ～ <frame> 63、65
+(不過<frame> 65 好像沒有用到?)
+
+
+
+forcefield_dp:
+
+<frame> 64 : 防護盾(John的，循環: 60 → 61 → 62 → 63 → 64 → 62 → 63 → 64 → 62 → ……)
+
+<frame> 67 ～ <frame> 69 - John的，防護盾被碰到的效果
+
+
+
+start: 殃殞天降的飛上物(?)(Firzen的)- <frame> 50 ～ <frame> 59
+
+
+
+hiting_ground: 飛到地上(Firzen的)- <frame> 60 ～ <frame> 63
+
+
+
+explosion: 爆炸(Julian的)- <frame> 10、20、30、110 ～ <frame> 120
+
+
+
+col: 化為烏有的光芒(Julian的)- <frame> 40 ～ <frame> 51
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data.txt:
+
+
+
+
+
+id: 0 type: 0 file:data\template.dat =Template
+
+id: 52 type: 0 file:data\julian.dat =Julian
+ 
+id: 51 type: 0 file:data\firzen.dat =Firzin
+
+id: 50 type: 0 file:data\louisEX.dat =LouisEX
+
+id: 38 type: 0 file:data\bat.dat =Bat
+
+id: 39 type: 0 file:data\justin.dat =Justin 
+
+id: 37 type: 0 file:data\knight.dat =Knight
+
+id: 36 type: 0 file:data\jan.dat =Jan
+
+id: 35 type: 0 file:data\monk.dat =Monk
+
+id: 34 type: 0 file:data\sorcerer.dat =Sorcerer
+
+id: 33 type: 0 file:data\jack.dat =Jack
+
+id: 32 type: 0 file:data\mark.dat =Mark
+
+id: 31 type: 0 file:data\hunter.dat =Hunter
+
+id: 30 type: 0 file:data\bandit.dat =Bandit
+
+id: 1 type: 0 file:data\deep.dat =Deep
+
+id: 2 type: 0 file:data\john.dat =John
+
+id: 4 type: 0 file:data\henry.dat =Henry
+
+id: 5 type: 0 file:data\rudolf.dat =Rudolf
+
+id: 6 type: 0 file:data\louis.dat =Louis
+
+id: 7 type: 0 file:data\firen.dat =Firen
+ 
+id: 8 type: 0 file:data\freeze.dat =Freeze 
+
+id: 9 type: 0 file:data\dennis.dat =Dennis
+ 
+id: 10 type: 0 file:data\woody.dat =Woody
+
+id: 11 type: 0 file:data\davis.dat =Davis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+id: 100 type: 1 file:data\weapon0.dat #stick =木棒 
+
+id: 101 type: 1 file:data\weapon2.dat #hoe =鐮刀 
+
+id: 120 type: 1 file:data\weapon4.dat #knife =小刀 
+
+id: 121 type: 4 file:data\weapon5.dat #baseball =棒球 
+
+id: 122 type: 6 file:data\weapon6.dat #milk =牛奶
+
+id: 123 type: 6 file:data\weapon8.dat #beer =啤酒
+
+id: 124 type: 1 file:data\weapon9.dat #< =迴力鏢
+
+id: 150 type: 2 file:data\weapon1.dat #stone =石頭
+
+id: 151 type: 2 file:data\weapon3.dat #wooden_box =箱子
+
+id: 217 type: 2 file:data\weapon10.dat #louis_armour =Louis的手腳盔甲
+
+id: 218 type: 2 file:data\weapon11.dat #louis_armour =Louis的身體盔甲
+
+id: 300 type: 5 file:data\criminal.dat #criminal =人質
+
+
+
+
+
+
+
+
+
+
+
+
+
+id: 200 type: 3 file:data\john_ball.dat =John的氣功波
+
+id: 201 type: 1 file:data\henry_arrow1.dat =弓箭
+
+id: 202 type: 1 file:data\rudolf_weapon.dat =飛鏢
+
+id: 203 type: 3 file:data\deep_ball.dat =破空斬
+
+id: 204 type: 3 file:data\henry_wind.dat =降龍掌
+
+id: 205 type: 3 file:data\dennis_ball.dat =Dennis的氣功波
+
+id: 206 type: 3 file:data\woody_ball.dat =Woody的氣功波
+
+id: 207 type: 3 file:data\davis_ball.dat =Davis的氣功波
+
+id: 208 type: 3 file:data\henry_arrow2.dat =穿空矢
+
+id: 209 type: 3 file:data\freeze_ball.dat =冷凍波
+
+id: 210 type: 3 file:data\firen_ball.dat =火焰彈
+
+id: 211 type: 3 file:data\firen_flame.dat =豪火球
+
+id: 212 type: 3 file:data\freeze_column.dat =冰霜拳
+
+id: 213 type: 1 file:data\weapon7.dat #ice_sword =冰之刀
+
+id: 214 type: 3 file:data\john_biscuit.dat =氣旋斬
+
+id: 215 type: 3 file:data\dennis_chase.dat =追蹤波
+
+id: 216 type: 3 file:data\jack_ball.dat =Jack的氣功波
+
+id: 219 type: 3 file:data\jan_chaseh.dat =天使的祝福
+
+id: 220 type: 3 file:data\jan_chase.dat =惡魔的審判
+
+id: 221 type: 3 file:data\firzen_chasef.dat =殃殞天降中的火球
+
+id: 222 type: 3 file:data\firzen_chasei.dat =殃殞天降中的冰球
+
+id: 223 type: 3 file:data\firzen_ball.dat =冰火衝擊波
+
+id: 224 type: 3 file:data\bat_ball.dat =激光眼
+
+id: 225 type: 3 file:data\bat_chase.dat =吸血蝙蝠
+
+id: 226 type: 3 file:data\justin_ball.dat =Justin的氣功波
+
+id: 228 type: 3 file:data\julian_ball.dat =連環重炮
+
+id: 229 type: 3 file:data\julian_ball2.dat =邪光閃+化為烏有
+
+
+
+
+
+id: 998 type: 5 file:data\etc.dat =電腦指令
+
+id: 999 type: 5 file:data\broken_weapon.dat =毀壞的物件
